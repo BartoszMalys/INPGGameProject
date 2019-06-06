@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Licznik : MonoBehaviour
+{
+    public int licznik;
+    // Start is called before the first frame update
+    void Start()
+    {
+        licznik = 0;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        licznik += 1;
+    }
+}
